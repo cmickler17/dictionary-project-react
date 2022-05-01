@@ -12,7 +12,7 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Chrissy Mickler</small>
+          <small>Coded by Chrissy Mickler and is <a href="https://github.com/cmickler17/dictionary-project-react" target="_blank" rel="noreferrer">open-sourced on GitHub</a>.</small>
           </footer>
       </div>
     </div>
