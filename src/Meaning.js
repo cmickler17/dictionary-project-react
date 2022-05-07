@@ -17,9 +17,9 @@ export default function Meaning(props) {
                             <Synonyms synonmys={definition.synonyms} />
                         </p>
                     </div>    
-                )
+                );
             })}
-           
+           <Synonyms synonyms={props.meaning.synonyms} />
         </div>
-    )
+    );
 }
